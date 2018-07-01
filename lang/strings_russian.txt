@@ -1,0 +1,44 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2002 - 2014  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/** English (English)
+ *
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Oleg Muraviov, mirage@izbushka.kiev.ua
+ */
+
+$s_plugin_Attendances_title = 'Посещаемость';
+$s_plugin_Attendances_menu =  'Посещаемость';
+$s_plugin_Attendances_none  = '-';
+$s_plugin_Attendances_config = 'Настройки';
+$s_plugin_Attendances_lbl_report_project_id = 'Report project_id';
+$s_plugin_Attendances_lbl_report_category_id = 'Report category_id';
+$s_plugin_Attendances_lbl_default_summary = 'Default Summary Prefix';
+$s_plugin_Attendances_lbl_default_description = 'Default Description';
+
+$s_plugin_Attendances_check_in = 'Check in';
+$s_plugin_Attendances_checked_in = 'Checked in';
+$s_plugin_Attendances_check_out = 'Check out';
+$s_plugin_Attendances_checked_out = 'Checked out';
+$s_plugin_Attendances_current_task = 'Текущий таск посещаемости';

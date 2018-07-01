@@ -1,0 +1,134 @@
+.motives-date, .motives-avatar {
+    color: gray;
+    font-size: 8pt;
+    padding: 5px;
+}
+.motives-project .widget-title a {
+    color: white !important;
+}
+.motives-table .avatar {
+    float: none;
+}
+
+.motives-avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.motives-note {
+    border: 1px solid #C8C8E8;
+    background-color: #E8E8E8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    /*max-width: 658px;
+    overflow-x: hidden;
+    */
+
+}
+
+td.motives-center {
+    text-align: center;
+}
+
+hr.motives-hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.motives-fines-by-user, .motives-bonuses-by-user {
+    padding-left: 10px;
+}
+
+#motivesEditor {
+    background: rgba(0, 0, 0, 0.71);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 20%;
+    z-index: 10000;
+}
+.motives-editor-form label {
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #dadada;
+    padding: 0 0 0 5px;
+    margin: 0px;
+}
+.motives-editor-form label span{
+    float: right;
+    background: #dadada;
+    padding: 0 5px;
+}
+
+.t_center {
+    text-align: center;
+}
+.bonus_fine {
+    /*for email*/
+    min-width: 70%;
+}
+.bonus_fine td,
+.bonus_fine th {
+    border: 1px solid #ddd;
+}
+.bonus_fine th {
+    text-align: center;
+    background: #eee;
+    color: #707070;
+}
+.bonus_fine th.b {
+    color: black;
+}
+.bonus_fine .left {
+    text-align: left;
+}
+.bonus_fine .bonus,
+.bonus_fine .total,
+.bonus_fine .fine {
+    text-align: center;
+    background: #ffbbbb;
+}
+.bonus_fine .bonus.left,
+.bonus_fine .total.left,
+.bonus_fine .fine.left {
+  text-align: left;
+}
+.bonus_fine .bonus {
+    background: #cfffcf;
+}
+.bonus_fine .total {
+    background: #e0f0ff;
+}
+.bonus_fine tbody tr:hover td,
+.bonus_fine tbody tr:hover th {
+    border-bottom: 1px solid black;
+    opacity: 0.8;
+}
+
+span.note_fine,
+span.note_bonus {
+    background:  #ffbbbb;
+    padding: 1px 3px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+span.note_bonus {
+    background: #cfffcf;
+}
+
+#motives_actiongroup_form {
+    display: none;
+}
+#action-group-div #motives_actiongroup_form {
+    display: block;
+    padding: 10px;
+}
